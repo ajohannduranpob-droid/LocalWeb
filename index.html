@@ -11,54 +11,186 @@
 
 <body>
 
-    <header>
-        <h1>Taquería El Fogón</h1>
+    <header class="navbar">
 
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#menu">Menú</a>
-            <a href="#nosotros">Nosotros</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+    <a href="#inicio" class="logo">
+        EL FOGÓN
+    </a>
 
+    <nav class="nav-links">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+    <a href="https://wa.me/525500000000"
+       class="nav-button">
+        Pedir ahora
+    </a>
+
+</header>
 
     <main>
 
-        <section id="inicio">
-            <h2>El verdadero sabor mexicano</h2>
+       <section id="inicio" class="hero">
 
-            <p>
-                Tacos preparados al momento con ingredientes frescos
-                y el auténtico sabor de la taquería mexicana.
-            </p>
+    <div class="hero-content">
 
-            <a href="#menu">Ver menú</a>
-        </section>
+        <p class="hero-subtitle">TAQUERÍA EL FOGÓN</p>
+
+        <h2>
+            EL VERDADERO
+            <span>SABOR MEXICANO</span>
+        </h2>
+
+        <p class="hero-description">
+            Tacos preparados al momento con ingredientes frescos
+            y el auténtico sabor de la taquería mexicana.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="btn btn-primary">
+                Ver menú
+            </a>
+
+            <a href="https://wa.me/525500000000"
+               class="btn btn-secondary">
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img
+            src="assents/imagenes/tacos.jpg"
+            alt="Tacos al pastor de Taquería El Fogón"
+        >
+
+    </div>
+
+</section>
 
 
-        <section id="menu">
-            <h2>Nuestro menú</h2>
+        <section id="menu" class="menu-section">
 
-            <article>
-                <h3>Tacos al pastor</h3>
-                <p>Carne al pastor, piña, cebolla y cilantro.</p>
-                <strong>$18</strong>
-            </article>
+    <div class="section-heading">
+        <p class="section-subtitle">NUESTRO MENÚ</p>
 
-            <article>
-                <h3>Tacos de suadero</h3>
-                <p>Suadero preparado al momento con cebolla y cilantro.</p>
-                <strong>$20</strong>
-            </article>
+        <h2>
+            Elige tu favorito
+        </h2>
 
-            <article>
-                <h3>Gringas</h3>
-                <p>Carne al pastor, queso y tortilla de harina.</p>
-                <strong>$45</strong>
-            </article>
+        <p>
+            Preparados al momento con ingredientes frescos
+            y mucho sabor.
+        </p>
+    </div>
 
-        </section>
+
+    <div class="menu-grid">
+
+        <article class="menu-card">
+
+            <img
+                src="assents/imagenes/tacos.jpg"
+                alt="Tacos al pastor"
+            >
+
+            <div class="menu-card-content">
+
+                <div class="menu-card-title">
+                    <h3>Tacos al pastor</h3>
+                    <span>$18</span>
+                </div>
+
+                <p>
+                    Carne al pastor, piña, cebolla
+                    y cilantro.
+                </p>
+
+                <a
+                    href="https://wa.me/525500000000"
+                    class="menu-button"
+                >
+                    Pedir
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="menu-card">
+
+            <img
+                src="assents/imagenes/tacos.jpg"
+                alt="Tacos de suadero"
+            >
+
+            <div class="menu-card-content">
+
+                <div class="menu-card-title">
+                    <h3>Tacos de suadero</h3>
+                    <span>$20</span>
+                </div>
+
+                <p>
+                    Suadero preparado al momento
+                    con cebolla y cilantro.
+                </p>
+
+                <a
+                    href="https://wa.me/525500000000"
+                    class="menu-button"
+                >
+                    Pedir
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="menu-card">
+
+            <img
+                src="assents/imagenes/tacos.jpg"
+                alt="Gringa al pastor"
+            >
+
+            <div class="menu-card-content">
+
+                <div class="menu-card-title">
+                    <h3>Gringa</h3>
+                    <span>$45</span>
+                </div>
+
+                <p>
+                    Carne al pastor, queso y
+                    tortilla de harina.
+                </p>
+
+                <a
+                    href="https://wa.me/525500000000"
+                    class="menu-button"
+                >
+                    Pedir
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
 
 
         <section id="nosotros">
