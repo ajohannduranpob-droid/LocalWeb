@@ -93,10 +93,25 @@
         </p>
     </div>
 
+    <div class="menu-filters">
+
+    <button class="filter-button active" data-filter="todos">
+        Todos
+    </button>
+
+    <button class="filter-button" data-filter="tacos">
+        Tacos
+    </button>
+
+    <button class="filter-button" data-filter="especialidades">
+        Especialidades
+    </button>
+
+</div>
 
     <div class="menu-grid">
 
-        <article class="menu-card">
+        <article class="menu-card" data-category="tacos">
 
             <img
                 src="assents/imagenes/tacos.jpg"
@@ -127,7 +142,7 @@
         </article>
 
 
-        <article class="menu-card">
+        <article class="menu-card" data-category="tacos">
 
             <img
                 src="assents/imagenes/tacos.jpg"
@@ -158,7 +173,7 @@
         </article>
 
 
-        <article class="menu-card">
+        <article class="menu-card" data-category="especialidades">
 
             <img
                 src="assents/imagenes/tacos.jpg"

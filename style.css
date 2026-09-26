@@ -711,3 +711,63 @@ footer {
     }
 
 }
+/* FILTROS DEL MENÚ */
+
+.menu-filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filter-button {
+    padding: 12px 22px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #151515;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #151515;
+    color: white;
+}
+
+.filter-button.active {
+    background-color: #d35400;
+    color: white;
+    border-color: #d35400;
+}
+
+
+/* ANIMACIÓN DE LAS TARJETAS */
+
+.menu-card {
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.menu-card.hidden {
+    display: none;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+
+    .menu-filters {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .filter-button {
+        padding: 10px 17px;
+        font-size: 14px;
+    }
+
+}
